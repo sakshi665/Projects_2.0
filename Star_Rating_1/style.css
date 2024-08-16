@@ -1,16 +1,18 @@
 .container{
     display: grid;
     place-items: center;
+
 }
 
 .star-container{
     display: flex;
     justify-content: center;
     gap: 1rem;
+    border: 1px 
 }
 
 .star{
-    font-size: 2rem;
+    font-size: 6rem;
     color: gray;
 }
 
