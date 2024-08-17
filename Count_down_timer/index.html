@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    
+</head>
+<body>
+    <!-- {.timer_label>div*3}+{.timer_inputs>input*3}+.container_btn>button*4 -->  
+     <h1>Count down timer</h1> 
+    <div class="timer_label">
+        <div timer_label--hrs>Hours</div>
+        <div timer_label--mins>Minutes</div>
+        <div timer_label--secs>Seconds</div>
+    </div>
+    <div class="timer_inputs">
+        <input type="number" placeholder="00" id="hr"/>:
+        <input type="number" placeholder="00" id="min"/>:
+        <input type="number" placeholder="00" id="sec"/>
+    </div>
+    <div class="container_btn">
+        <button id="start">Start</button>
+        <button id="pause">Pause</button>
+        <button id="Continue">Continue</button>
+        <button id="reset">Reset</button>
+    </div>
+</body>
+</html>
