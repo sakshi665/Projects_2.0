@@ -1,0 +1,21 @@
+.container{
+    padding: 1rem 3rem;
+}
+
+.comment-container{
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 0rem;
+    border-left: 1px solid black;
+}
+
+.comment-text{
+   margin-bottom: 0.5rem;
+}
+
+.reply{
+    color: red;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+}
