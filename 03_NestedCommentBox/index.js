@@ -44,8 +44,25 @@ e.target.parentNode.appendChild(fragment);
 
 function createComment(e){
     console.log(e.target);
+    // const crc = e.target.parentNode;
+
     const commentContainer=document.createElement("div");
     commentContainer.setAttribute("class","comment-container");
-    const input=e.target.previousElementSibling.value   ;
-    console.log(input);
+    const comment=e.target.previousElementSibling.value;
+    // const input2=e.target.previousSibling;
+    // console.log(input);
+    // console.log(input2);
+
+    // console.log(crc.children);
+    // console.log(crc.childNodes);
+    commentContainer.innerHTML=`<div class="comment-card">
+                <h3 class="comment-text">${comment}</h3>
+                <div class="reply">Reply</div>
+            </div>`;
+    const commentReplyBox=e.target.parentNode;
+    const commentCard=commentReplyBox.parentNode;
+
+    commentCard.replaceChild(commentContainer,commentReplyBox);
+
 }
+

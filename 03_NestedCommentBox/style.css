@@ -19,3 +19,9 @@
     margin-bottom: 1rem;
     padding-left: 1rem;
 }
+
+
+.comment-container:not(:first-child){
+    margin-left: 4rem;
+    
+}
