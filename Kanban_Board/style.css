@@ -1,0 +1,172 @@
+:root{
+    --pink: lightpink;
+    --blue:lightblue;
+    --green:lightgreen;
+    --purple:rgb(150, 50, 150);
+    --white:white;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+html,
+body{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+/* styling */
+
+
+.toolbox-cont{
+    height: 5rem;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+
+.toolbox-priority-cont,.action-btn-container,.all-tickets{
+    height: 70%;
+    background-color: gray;
+    width: 20rem;
+    margin-left: 5rem;
+    display: flex;
+    justify-content: space-evenly ;
+    align-items: center;
+    
+}
+
+.all-tickets{
+    width:3rem;
+
+}
+
+.color{
+    height: 50%;
+    width: 4rem;
+    
+}
+
+.pink{
+background-color: var(--pink);
+}
+
+.blue{
+background-color: var(--blue);
+
+}
+
+.green{
+background-color: var(--green);
+
+}
+
+.purple{
+background-color: var(--purple);
+
+}
+
+.active{
+    border: 5px solid var(--white);
+}
+.action-btn-container{
+    width: 10rem;
+}
+
+.add-btn,.remove-btn,.all-tickets{
+    font-size: 1.8rem;
+}
+
+.main-cont{
+    width: 100vw;
+    display:  flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    /* justify-content: space-evenly; */
+}
+
+.ticket-cont{
+    height: 10rem;
+    width: 15rem;
+    background-color: lightgray;
+    position: relative;
+}
+
+.ticket-color{
+height: 10%;
+}
+
+.ticket-id{
+height: 10%;
+font-weight: 600;
+padding-left: 10px;
+}
+
+.ticket-area{
+height: 70%;
+padding: 5px;
+font-size: 1.25rem;
+}
+
+.lock-unlock{
+    height: 10px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.modal-cont{
+    height: 50vh;
+    width: 50vw;
+    position: fixed;
+    top: 25vh;
+    left: 10vh;
+    /* display: flex; */
+    display: none;
+    z-index: 1;
+}
+
+.textarea-cont{
+    width: 75%;
+    font-size: 2rem;
+    resize: none;
+    border: none;
+    outline: none;
+  /* //  border: 2px solid pink; */
+      box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+     -moz-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+  -webkit-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+  box-shadow: 5px 5px 10px rgba(68, 68, 68, 0.6);
+}
+
+.priority-color{
+    height: 3rem;
+    width: 5rem;
+}
+
+.priority-color-cont{
+    height: 100%;
+    background-color: black;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly   ;
+    align-items: center;
+}
+
