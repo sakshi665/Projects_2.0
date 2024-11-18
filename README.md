@@ -1,4 +1,7 @@
+<<<<<<< Sakshi
 # Projects_2.0
+
+**4.Kanban board**
 
 -1.Add tickets
 -2.Delete tickets
@@ -7,3 +10,4 @@
 
 ![alt text](<Screenshot 2024-11-06 114939.png>)
 ![alt text](<Screenshot 2024-11-06 114746.png>)
+
